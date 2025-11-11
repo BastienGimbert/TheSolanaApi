@@ -155,47 +155,60 @@ curl -X POST "http://thesolanaapi.com/" \
 
 For more methods and parameters, refer to the [Solana JSON-RPC API documentation](http://docs.solana.com/developing/clients/jsonrpc-api).
 
-# Available Nodes: October 2, 2025
+# Available Nodes: November 11, 2025
 
 > **Be careful:** Some nodes may be behind the current Solana network state. Use [getLatestBlockhash](#4-get-latest-blockhash-random-routing) to verify the "node's freshness".
 > Check the `slot` field in responses to ensure you're interacting with an up-to-date validator.
 
+## 🌏 Asia
+### 🇭🇰 Hong Kong
+- `quarry-bay-1`
+
+### 🇮🇱 Israel
+- `tel-aviv-1`
+
+### 🇯🇵 Japan
+- `tokyo-1`
+
+### 🇸🇬 Singapore
+- `singapore-1`
+- `singapore-2`
+- `singapore-3`
+- `singapore-4`
+
+
 ## 🌍 Europe
+### 🇫🇮 Finland
+- `espoo-1`
+- `helsinki-1`
+- `helsinki-2`
+
 ### 🇫🇷 France
-- `aubervilliers-1`
-- `aubervilliers-2`
 - `lauterbourg-1`
+- `strasbourg-1`
 
 ### 🇩🇪 Germany
-- `bad-soden-am-taunus-1`
-- `falkenstein-1`
 - `fechenheim-1`
 - `fechenheim-2`
 - `fechenheim-3`
 - `fechenheim-4`
 - `fechenheim-5`
-- `fechenheim-6`
-- `fechenheim-7`
-- `fechenheim-8`
-- `fechenheim-9`
-- `fechenheim-10`
-- `fechenheim-11`
-- `fechenheim-12`
-- `fechenheim-13`
+- `frankfurt-1`
+- `frankfurt-2`
+- `frankfurt-3`
+- `frankfurt-4`
 - `frankfurt-am-main-1`
 - `frankfurt-am-main-2`
 - `frankfurt-am-main-3`
 - `frankfurt-am-main-4`
 - `frankfurt-am-main-5`
 - `frankfurt-am-main-6`
-- `gelnhausen-1`
+- `frankfurt-am-main-7`
 - `hattersheim-1`
 - `nuremberg-1`
 
 ### 🇱🇹 Lithuania
 - `siauliai-1`
-- `siauliai-2`
-- `siauliai-3`
 
 ### 🇳🇱 Netherlands
 - `amsterdam-1`
@@ -208,10 +221,6 @@ For more methods and parameters, refer to the [Solana JSON-RPC API documentation
 - `warsaw-1`
 - `warsaw-2`
 - `warsaw-3`
-- `warsaw-4`
-
-### 🇷🇺 Russia
-- `moscow-1`
 
 ### 🇪🇸 Spain
 - `madrid-1`
@@ -226,43 +235,28 @@ For more methods and parameters, refer to the [Solana JSON-RPC API documentation
 - `amsterdam-8`
 - `amsterdam-9`
 - `amsterdam-10`
-- `amsterdam-11`
-- `amsterdam-12`
-- `amsterdam-13`
-- `rotterdam-1`
-
-### 🇬🇧 United Kingdom
-- `tower-hamlets-1`
 
 
 ## 🌎 North America
 ### 🇺🇸 United States
-- `ashburn-1`
-- `ashburn-2`
 - `atlanta-1`
+- `bluffdale-1`
 - `chicago-1`
-- `council-bluffs-1`
 - `dallas-1`
 - `elk-grove-village-1`
-- `elk-grove-village-2`
+- `los-angeles-1`
 - `louisville-1`
+- `new-york-1`
+- `new-york-2`
 - `newark-1`
 - `newark-2`
-- `piscataway-1`
+- `newark-3`
+- `newark-4`
+- `phoenix-1`
 - `pittsburgh-1`
 - `secaucus-1`
-- `secaucus-2`
 - `st-louis-1`
 
-## 🌏 Asia
-### 🇮🇱 Israel
-- `tel-aviv-1`
-
-### 🇯🇵 Japan
-- `tokyo-1`
-
-### 🇸🇬 Singapore
-- `singapore-1`
 
 
 
